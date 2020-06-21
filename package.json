@@ -1,0 +1,36 @@
+{
+  "name": "06-http",
+  "version": "1.0.0",
+  "description": "HTTP web service on Koa with browser API on React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m3ta007/overREACTing-koa.git"
+  },
+  "keywords": [
+    "koa",
+    "react",
+    "webservice",
+    "browser-api",
+    "http",
+    "fetch"
+  ],
+  "author": "Anna Kova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m3ta007/overREACTing-koa/issues"
+  },
+  "homepage": "https://github.com/m3ta007/overREACTing-koa#readme",
+  "dependencies": {
+    "forever": "^3.0.0",
+    "koa": "^2.12.1",
+    "koa-router": "^9.0.1",
+    "koa2-cors": "^2.0.6"
+  }
+}
