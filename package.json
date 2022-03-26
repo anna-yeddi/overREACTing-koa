@@ -32,6 +32,6 @@
     "koa": "^2.12.1",
     "koa-router": "^9.0.1",
     "koa2-cors": "^2.0.6",
-    "minimist": "^1.2.3"
+    "minimist": "^1.2.6"
   }
 }
